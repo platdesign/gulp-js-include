@@ -2,31 +2,27 @@
   "name": "gulp-js-include",
   "version": "0.0.1",
   "description": "",
-  "homepage": "http://github.com/platdesign/gulp-js-include",
+  "main": "index.js",
+  "dependencies": {
+    "event-stream": "^3.1.5",
+    "gulp": "^3.3.4",
+    "gulp-util": "^2.2.14",
+    "should": "^2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/platdesign/gulp-js-include.git"
+    "url": "https://github.com/platdesign/gulp-js-include.git"
   },
-  "main": "index.js",
-  "scripts": {
-    
-  },
-  "keywords": [
-    "gulpplugin"
-  ],
-  "author": {
-    "name": "Christian Blaschke"
-  },
+  "author": "mail@platdesign.de",
   "license": "MIT",
-  "devDependencies": {
-    "gulp": "~3.3.4",
-  },
-  "dependencies": {
-    "gulp-util": "~2.2.10",
-    "event-stream": "~3.1.0"
-  },
-  "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/platdesign/gulp-js-include/issues"
-  }
+  },
+  "homepage": "https://github.com/platdesign/gulp-js-include"
 }
