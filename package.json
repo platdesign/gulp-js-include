@@ -1,7 +1,7 @@
 {
   "name": "gulp-js-include",
   "version": "0.0.1",
-  "description": "",
+  "description": "Includes js-files/folders",
   "main": "index.js",
   "dependencies": {
     "event-stream": "^3.1.5",
